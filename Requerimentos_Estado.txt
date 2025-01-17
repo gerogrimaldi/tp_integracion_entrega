@@ -1,0 +1,45 @@
+Significado:
+✔ - Completado
+💢 - En proceso
+❌ - Pendiente
+
+Requisitos de información
+✔ IRQ-01 - Lotes de aves
+✔ IRQ-02 - Vacunas
+✔ IRQ-03 - Lotes de vacunas
+✔ IRQ-04 - Granjas
+✔ IRQ-05 - Galpones
+✔ IRQ-06 - Pesaje de Lotes
+✔ IRQ-07 - Mantenimiento de Galpones
+✔ IRQ-08 - Mantenimiento de Granjas
+✔ IRQ-09 - Información de usuarios
+❌ IRQ-10 - Compuestos
+✔ IRQ-11 - Mortandad
+
+Requisitos de RESTRICCIÓN de información
+✔ CRQ-01 - Restricción a los datos de mortandad 
+✔ CRQ-02 - Restricción al valor del pesaje de lotes 
+
+Requisitos NO funcionales 
+✔ NFR-01 - Seguridad de los usuarios -> Encriptación de contraseña
+✔ NFR-02 - Notificación de copias de seguridad
+✔ NFR-03 - Compatibilidad con navegadores modernos
+
+Requisitos generales del sistema
+✔ RG-01 - Control de acceso: identificar al usuario para poder hacer uso de sus funciones, limitando las posibilidades según el tipo de usuario. 
+✔ RG-02 - Gestión de granjas: gestión de las granjas: ABM. 
+✔ RG-02.1 - Registro de mantenimiento de granjas
+✔ RG-02.2  Reporte de mantenimiento de granjas: reporte que cuente con  las  tareas  de  mantenimiento  registradas en  cierto rango de fechas. Para cumplimentar con SENASA.
+✔ RG-03 - Gestión de galpones: ABM
+✔ RG-03.1 - Registro de mantenimiento de galpones.
+✔ RG-03.2 - Reporte de mantenimientos de galpones realizados 
+✔ RG-04 - Gestión de lotes de aves: compra,  venta,  modificación  de  datos  y asignación  de galpón. 
+✔ RG-04.1 - Movimientos de lotes de aves : registrar cuando un lote es movido a otro galpón y establecimiento. 
+✔ RG-05 - Pesaje de lotes de aves: registrar los pesajes que se realicen a los lotes. 
+❌ RG-06 - Compras de compuestos: registro de los compuestos que se compran para fabricar el alimento. 
+✔ RG-07 - Gestión de vacunas: ABM
+✔ RG-07.1 - Gestión de lotes de vacunas.
+✔ RG-08 - Aplicación de vacunas: registro  de  vacunas  aplicadas a un lote de aves, indicando el lote utilizado. 
+✔ RG-08.1 - Reporte de vacunas aplicadas: reporte  que  detalle  las vacunas aplicadas a un lote de aves. 
+✔ RG-09 - Mortandad de las aves: registro  de  aves  que mueran de un lote y sus detalles. 
+✔ RG-10 - Gestión de copias de seguridad: crear y restaurar base de datos
