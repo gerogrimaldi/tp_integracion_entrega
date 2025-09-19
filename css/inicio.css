@@ -1,0 +1,65 @@
+/*Aca estilos*/
+header {
+  margin-bottom: auto;
+  margin-top: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(3, 100%, 4%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: wheat;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.img-persona {
+  height: 300px !important;
+  width: 300px !important;
+}
+
+.custom-card {
+  background-color: #751313; /* Fondo de la card */
+  border: none;
+  border-radius: 15px;
+  overflow: hidden; /* Para que las imágenes sigan la curva de los bordes */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación suave */
+}
+
+.custom-card:hover {
+  transform: translateY(-5px); /* Efecto de elevación al pasar el cursor */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
+}
+
+.custom-card img {
+  border-top-left-radius: 15px; /* Asegurar que la imagen siga la curva */
+  border-top-right-radius: 15px; /* Asegurar que la imagen siga la curva */
+}
+
+.custom-card .card-body {
+  background-color: #d6e9eb; /* Color de fondo del cuerpo de la card */
+  color: #000000; /* Color del texto */
+  padding: 20px;
+}
+
+.custom-card .btn {
+  background-color: #007bff; /* Color del botón */
+  border-radius: 20px; /* Botones más redondeados */
+  transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.custom-card .btn:hover {
+  background-color: #0056b3; /* Cambio de color en hover */
+}
+
+/* Hacer las cards responsivas */
+@media (max-width: 768px) {
+  .custom-card {
+    width: 100%; /* Que las cards ocupen el 100% del ancho en pantallas pequeñas */
+  }
+}
